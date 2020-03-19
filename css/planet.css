@@ -1,0 +1,224 @@
+body{box-sizing:border-box;margin: 0px;padding:0px;height:auto;}/*#7BFF00*/ /*#172121*/ /*#76d81a*/ /*#343a40*/
+.navbar-expand-lg .navbar-nav { margin-right: 150px;}/*start Navbar*/
+.nav-link{font-weight:bold;font-size:12px;color:#142534 !important;}
+.nav-link:hover{color:#BF1A2F !important;}
+a, a.link {display: block;padding: 33px 0 0 0;color: #313131;text-decoration: none;cursor: pointer;}
+.button {display: block;color: white;position: absolute;bottom: 0;left: 0;width: 100%;height: 57px;padding: 0;border-radius: 0;
+  background-color: #76d81a;}
+.nav-item::after{content:"";position: absolute;bottom:0px;left: calc(45% );border-left: 20px solid transparent;border-right: 20px solid transparent;border-bottom: 10px solid #76d81a;transform:rotateX(360deg);}
+nav{border-bottom:2px solid #76d81a}
+nav img{margin-left:15%;}/*end Navbar*/
+.carousel-item {height:450px;}/*End Carousel*/
+/* start contact card */
+/*.frcard{width:80%;margin:auto;height:450px;}*/
+ .frcard .card:first-of-type{margin-top:0px;height:450px;}
+ .frcard .card:first-of-type .card-img-top{height:65%;}
+.frcard .card-body i{color:#76d81a;border:1px solid #7BFF00;padding:10px;border-radius:50%;margin-top:10px;}
+.frcard .card-body{background-color:#172121;color: white;}
+/*.frcard .about-Rapro h1{margin-top:100px;font-family:inherit;}*/
+.frcard .about-Rapro h1 span{color:#76d81a;font-weight:bold;font-size:40px;}
+/*.frcard .about-Rapro p{width:650px;font-size:16px;margin:auto;color:#172121;line-height:30px;}*/
+.frcard .about-Rapro .btn{width:150px;}
+.frcard .about-Rapro .btn:first-of-type{background:#76d81a;color:#fff;}
+.our-services{height:1000px;margin-top:200px;}
+.our-services div:first-child{margin:auto;}
+/*.our-services div:first-of-type p{width:1100px;}*/
+.our-services div:first-of-type h1 span{color:#76d81a;font-weight:bold;font-size:40px;}
+.our-services div:nth-of-type(2) div .bton:nth-child(3){background:#76d81a;}
+.bton:after {
+  content: '';
+  position: absolute;
+  top: 1483px;
+  left: 59%;
+  transform: translate(-50%,-50%)rotate(45deg);
+  background: #76d81a;
+  height: 1rem;
+  width: 1rem;
+}
+.our-services div:nth-child(3) .card{margin-right: 10px;}
+.ours .cards .card img{height: 40%;}
+.ours .cards .card:first-of-type{height:75%;margin-top:0px;}
+.carousel-cell {
+	width:32%;
+	height:450px;
+  margin-right:0px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+.ours .cards{height:600px;}
+.ours .card-title{font-size: 25px;}
+.ours .btn{background:#76d81a;color: #fff;margin-top:80px;}
+
+.Listings p{font-size:18px;}
+.Listings h1 span{color:#76d81a;font-weight:bold;font-size:40px;}
+.Listings div .btn:first-child{background:#76d81a;}
+.Listings div .btn{font-size:18px;}
+
+.house .card-body>span{color:#76d81a;font-size:25px;font-weight:bold;}
+.house .card-body div span i{color:#76d81a;font-size:20px;}
+.house .card-body div span{font-weight: bold;}
+.house .card-body div span .fa-bed , .house .card-body div span .fa-bath{margin-right:70px;}
+.house .card-body div .bed1 , .house .card-body div  .bath1{margin-right:60px;}
+.house .card-body div .bed2 , .house .card-body div  .bath2{margin-right:65px;margin-left:15px;}
+.house .card-body .btn{background:#76d81a; }
+
+
+.Vinod .row div:nth-child(2)>div span{color:#76d81a;font-size: 30px;}
+.Vinod .row div:nth-child(2)>div{font-size:20px;color:lightgray;}
+.Vinod .row div:nth-child(2) span{color:#76d81a;font-weight:bold;font-size: 20px;}
+.Vinod .row div:nth-child(2) p{color:lightgray;}
+
+.blog .row div h1{font-weight:bold;font-size:40px;font-family: 'Francois One',sans-serif;}
+.blog .row div p{font-weight: bold;color:gray;}
+
+.beds .row div:first-child section:first-of-type{background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwl8ApicUAIOlZBk4Kyk_JvaG5_lzJm5eHgkZCvHDCmNeA0Z3K');height:400px;background-size:cover;background-repeat:no-repeat;position:relative;}
+.beds .row div:first-child section:first-of-type div{width:100px;height:100px;background:black;position:absolute;top:0px;right:0px;}
+.beds .row div:first-child section:first-of-type div i{font-size:40px;margin-left:30%;margin-top:10%;}
+
+.beds .row div:nth-child(2) section:first-of-type{background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXywz_iXGjL2grBB-vK87TFXt0gzUXvnOIN5cY48ssVl7QHGp');background-size:cover;background-repeat:no-repeat;height: 400px;position: relative;}
+.beds .row div:nth-child(2) section:first-of-type div{width:100px;height:100px;background:black;position:absolute;top:0px;right:0px;}
+.beds .row div:nth-child(2) section:first-of-type div i{font-size:40px;margin-left:30%;margin-top:10%;}
+
+.footer .row div:first-child span{color:#76d81a;font-weight:bold;font-size:18px;font-family: 'Lato', sans-serif;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	body{height:5000px;}
+	.frcard .row div:first-child .card {width:100% !important;}
+	.about-Rapro{padding-bottom:40px;margin:auto !important}
+	.about-Rapro{width:416px;margin-left:15px;}
+	.about-Rapro h1{padding-top:20px}
+	
+	.about-Rapro p{width:auto;}
+
+	.our-services {margin-top:0px !important;}
+	.bton:after {
+    content: '';
+    position: absolute;
+    top: 1875px;
+    left: 35%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    background: #76d81a;
+    height: 1rem;
+    width: 1rem;}
+    .our-services{height: 1100px;}
+    .our-services div:nth-of-type(2) div .bton:nth-child(3){margin-top:10px;}
+    .our-services div:nth-of-type(2) div .btn:nth-child(4){width:200px;margin-top:10px;}
+    .our-services div:nth-of-type(2) div .bton:nth-child(3) {margin-top: 10px;}
+    .group-button{margin-left: 13% !important;}
+    .our-services div:nth-child(3) .card{margin-right:0px;}
+    .carousel-cell:nth-of-type(3){display:none ;}
+    .ours .cards .card:first-of-type {margin-left:0px;}
+
+    .ours .cards .card:first-of-type {margin-left: 0px;width: 48%;margin-right: 10px;}
+	.carousel-cell {width: 49%;height: 500px;}
+	.ours .cards .card:first-of-type {height: 84%;}
+	.ours .cards .card:first-of-type img{height:200px;}
+	.ours .btn:first-of-type{margin-top:60px;}
+	.ours .row .carousel-cell:nth-child(2) .btn{margin-top:80px !important;}
+	.house .card{width:22rem !important;}
+	.Vinod .row div:nth-child(2){margin-top:0px !important;}
+
+
+
+
+
+	
+	
+
+}/*end media*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {  
+	.frcard .row div:first-child .card {width:100% !important;}
+	.about-Rapro{padding-bottom:40px;width:510px !important;padding-top:10px;}
+	.our-services {margin-top:50px;}
+	.our-services div:nth-of-type(2) div .btn:nth-child(4){width:200px;margin-top:10px;}
+    .our-services div:nth-of-type(2) div .bton:nth-child(3) {margin-top: 10px;}
+    .group-button div{margin-left: 10% !important;}
+    .ours .cards .card:first-of-type {margin-left:0px;height:600px}
+    .our-services div:nth-child(3) .card {margin-right:5px;}
+    .our-services {height: 1300px;}
+    .ours .row .carousel-cell .btn{margin-top:0px !important;}
+    .ours .carousel-cell {height: 600px;}
+    .ours .card-body .btn {width: 100%;padding-left:0px !important;padding-right:0px !important;}
+    .house .card{width:22rem !important;}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.frcard .row .card{width:300px !important;}
+	.frcard .row .about-Rapro p{margin-left:10px;margin-top:20px;}
+	.frcard .row .about-Rapro{padding-top:20px;}
+	.frcard .card-body i{margin-left:0px !important;}
+	.our-services div:nth-of-type(2) div .btn:nth-child(4){width:100px;padding:8px 0px !important;}
+    .our-services div:nth-of-type(2) div .bton:nth-child(3) {margin-top: 0px;}
+	.group-button div{margin-left: 0px !important;}
+	.bton:after {position: absolute;top: 1530px;left: 65%;}
+	.our-services {height: 1100px;}
+	.our-services div:nth-child(3) .card {margin-right: 5px;}
+	.ours .cards .card:first-of-type {height: 100%;}
+	.ours .cards .card:first-of-type .card-body .btn{margin-top:50px;}
+	.carousel-cell {width: 32.6%;height: 600px;}
+	.ours .card-body .btn {margin-top:20px;}
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1125px) {
+	.frcard .about-Rapro p{width:auto;font-size:16px;margin:auto;color:#172121;line-height:30px;}
+}
+
+
+
+
+
+
+
+@media (min-width: 1126px) and (max-width: 1400px) { 
+	 .frcard .card:first-of-type{margin-top:0px;height:450px;}
+	 .frcard .card:first-of-type .card-img-top{height:65%;}
+	 .frcard .card-body i{color:#76d81a;border:1px solid #7BFF00;padding:10px;border-radius:50%;margin-top:10px;}
+	 .frcard .card-body{background-color:#172121;color: white;}
+ 	 .frcard .about-Rapro h1{margin-top:100px;font-family:inherit;}
+	 .frcard .about-Rapro h1 span{color:#76d81a;font-weight:bold;font-size:40px;}
+ 	.frcard .about-Rapro p{width:650px;font-size:16px;margin:auto;color:#172121;line-height:30px;}
+ 	.frcard .about-Rapro .btn{width:150px;}
+ 	.frcard .about-Rapro .btn:first-of-type{background:#76d81a;color:#fff;}
+ }
+ 
